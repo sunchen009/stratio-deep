@@ -1,9 +1,9 @@
 package com.stratio.deep.extractor.utils;
 
 /**
- * Created by dgomez on 19/08/14.
+ * Created by dgomez on 25/08/14.
  */
-public final class ExtractorConstants {
+public class ExtractorConstants {
 
     public static  String PASSWORD = "password";
     public static  String HOST     = "host";
@@ -16,6 +16,9 @@ public final class ExtractorConstants {
     public static  String TABLE    = "table";
     public static  String RPCPORT  = "rpcPort";
     public static  String CQLPORT  = "cqlPort";
-
+    public static  String COLUMN_FAMILY  = "COLUMN_FAMILY";
+    public static  String BISECT_FACTOR  = "COLUMN_FAMILY";
+    public static  String CREATE_ON_WRITE  = "COLUMN_FAMILY";
+    public static  String BATCHSIZE  = "batchSize";
 
 }
